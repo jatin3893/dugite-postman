@@ -138,19 +138,5 @@ mkdirp(config.outputPath, function (error) {
     process.exit(1)
   }
 
-  const tempFile = config.tempFile
-
-  if (fs.existsSync(tempFile)) {
-    verifyFile(tempFile, valid => {
-      if (valid) {
-        unpackFile(tempFile)
-      } else {
-        rimraf.sync(tempFile)
-        downloadAndUnpack()
-      }
-    })
-    return
-  }
-
   downloadAndUnpack()
 })
