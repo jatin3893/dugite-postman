@@ -11,12 +11,12 @@
   },
   "darwin-x64": {
     "name": "dugite-native-v2.35.3-1-macOS-x64.tar.gz",
-    "url": "https://d12kvnwbnbe2f1.cloudfront.net/api-git/dugite-native-v2.35.3-1-macOS-x64.tar.gz",
+    "url": "https://d12kvnwbnbe2f1.cloudfront.net/api-git/dugite-native-v2.35.3-f7287d1-macOS-x64.tar.gz",
     "checksum": "5a21720a791af01396476b1298f209b2de38dd7ab7d99132e73d8e3300d17679"
   },
   "darwin-arm64": {
     "name": "dugite-native-v2.35.3-1-macOS-arm64.tar.gz",
-    "url": "https://d12kvnwbnbe2f1.cloudfront.net/api-git/dugite-native-v2.35.3-1-macOS-arm64.tar.gz",
+    "url": "https://d12kvnwbnbe2f1.cloudfront.net/api-git/dugite-native-v2.35.3-f7287d1-macOS-arm64.tar.gz",
     "checksum": "9f6fbcff96d8597506120e7c9b0d54980c4c9ce438b7fd36c009976710332272"
   },
   "linux-x64": {
